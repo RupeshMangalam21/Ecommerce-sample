@@ -119,6 +119,7 @@
   background: darkslateblue;
   display: flex;
   font-size: 16px;
+  padding: 4px;
 }
 
 .shop-section{
