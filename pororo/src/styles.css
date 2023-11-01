@@ -1,4 +1,12 @@
 /* styles.css */
+
+@font-face { 
+  font-family: Maddac; 
+  src: url(); 
+  font-weight: normal; 
+  }
+
+
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -24,6 +32,7 @@
 
 .product-image {
   width: 100%;
+  max-height: 186px;
 }
 
 .product-details {
@@ -48,9 +57,10 @@
 }
 
 .add-to-cart-button {
-  background-color: #3490dc;
+  background-color: #8464b8;
   color: #fff;
-  font-weight: bold;
+  font-size: medium;
+  font-weight: inherit;
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 4px;
@@ -59,7 +69,7 @@
 }
 
 .add-to-cart-button:hover {
-  background-color: #2779bd;
+  background-color: #9578c5;
 }
 
 /* styles.css */
@@ -77,10 +87,12 @@
 .header-title {
   font-size: 2rem;
   font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header-subtitle {
   font-size: 1.25rem;
+  margin-top: 20px;
 }
 
 .header-button {
@@ -132,4 +144,8 @@
 
 .imgtop{
   max-width: inherit;
+}
+
+.shop-title{
+  margin-top: 44px;
 }
