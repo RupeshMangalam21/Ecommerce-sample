@@ -46,7 +46,7 @@ const Home = () => {
       </section>
 
       <footer className="footer">
-        <p className="footer-text">© 2023 PORORO, All Rights Reserved</p>
+        <p className="footer-text">© 2023 PURNIMA DHAR, All Rights Reserved</p>
       </footer>
     </div>
   );
