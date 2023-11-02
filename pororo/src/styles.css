@@ -188,3 +188,49 @@
   justify-content: center;
   align-items: flex-start;
 }
+
+/* reviewscarousel */
+.reviews-carousel {
+  max-width: 716px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  background-color: rgb(240 248 255 / 24%);
+  margin: 0 auto; /* Center the carousel on the page */
+}
+
+.review-slide {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-content {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.review-author {
+  font-weight: bold;
+}
+
+/* Style the carousel arrows */
+.carousel .control-arrow {
+  font-size: 30px;
+  color: #333;
+  background-color: transparent;
+}
+
+/* Style the carousel arrow hover effect */
+.carousel .control-arrow:hover {
+  color: #555;
+}
+
+/* Style the carousel dot indicators */
+.carousel .thumbs-wrapper {
+  display: none;
+}

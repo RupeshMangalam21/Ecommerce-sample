@@ -2,8 +2,9 @@ import React from 'react';
 import '../styles.css'; // Import your custom CSS file
 import ShopPage from './ShopPage';
 import Landing2 from '../Images/Landing2.mp4';
-import sectionbg2 from '../Images/sectionbg2.jpg'
+// import sectionbg2 from '../Images/sectionbg2.jpg'
 import { FaShoppingCart } from 'react-icons/fa';
+import ReviewsCarousel from '../Components/ReviewsCarousel'
 
 // import Cart from '../Components/Cart';
 const Home = () => {
@@ -29,13 +30,15 @@ const Home = () => {
           <p>Sector 15 Market</p>
           <p>Chandigarh, India</p>
         </div>
-        {/* <img src={sectionbg2} className='section-bg' alt="Background Image" /> */}
       </section>
       <section id="shop" className="shop-section">
         <h2 className="shop-title">Shop Our Delicious Cakes</h2>
         <ShopPage />
       </section>
-
+      <section className='reviews-section' style={{ marginBottom: '60px' }}>
+        <h2 style={{ marginBottom: '60px', marginTop: '120px' }}>What Our Customers Say</h2>
+        <ReviewsCarousel />
+      </section>
       <section className="about-section">
         <p className="about-description">
         At Sweet Addictions, we are committed to delivering the freshest and most delectable treats for every occasion. With a devotion to quality and creative craftsmanship, we craft delightful confections that capture the essence of each occasion.
